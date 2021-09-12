@@ -1,0 +1,80 @@
+body,
+html {
+	width: 100%;
+	background: rgb(0,255,250);
+	background: linear-gradient(15deg, rgba(0,255,250,0.1) 0%, rgba(217,255,142,0.2) 37%, rgba(214,255,154,0.3) 57%, rgba(0,184,63,0.3) 91%);
+	font-size: 16px;
+	font-family: sans-serif;
+}
+.person {
+	
+	display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: center;
+	text-align: left;
+	text-decoration: #000;
+	border-width: 32px;
+	border-color: #000;
+	width: 60%;
+   margin-left: 20%; 
+}
+.person__info {
+	display: flex;
+   justify-content: flex-start;
+	width: 40%
+	}
+.person__contacts {
+	text-align: start;
+	width: 60%;
+	padding-top: 4rem;
+   
+}
+.person__details {
+		width: 100%;
+ }
+.avatar {
+	padding: 2rem;
+	width: 300px;
+	height: 300px;
+}
+.avatar__picture {
+	border-radius: 50%;
+	border: 20px solid white;
+}
+.contacts {
+	font-size: 19.2px
+}
+.contacts__name {
+	font-size: 32px;
+	font-weight: bold;
+   padding-bottom: 1rem;
+}
+.contacts__role {
+	padding-bottom: 1rem;
+	font-size: 19.2px;
+	font-weight: bold; 
+}
+.contacts__item {
+	display: flex;
+	font-weight: bold;
+
+}
+.contacts__title {
+	font-size: 16px;
+}
+.contacts__title:after {
+ content: ":";
+}
+.contacts__link {
+	padding-left: 4px;
+	font-style: oblique;
+	font-size: 16px;
+	color: gray;
+}
+.paragraph {
+	padding: 1rem 0;
+}
+.paragraph_last {
+	padding-bottom: 3rem;
+}
